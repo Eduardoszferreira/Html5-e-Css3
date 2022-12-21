@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {}
+
+main {background-color: black;
+    box-shadow: 10px 10px 10px rgb(131, 6, 6);
+    
+    border-radius: 39px;
+    height: 333px;
+    padding: 233px;
+    margin: 59px;
+    width: 39px;
+    text-align: center;
+
+}
+button{padding: 21px;
+margin: 1px;
+border-radius: 33px;
+width: 88px;}

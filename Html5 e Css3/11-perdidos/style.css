@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(63, 142, 216), rgb(57, 84, 175));
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    margin: 22px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow:2px 2px 7px black;
+
+}
+
+header>nav>a {
+    background-color: rgb(45, 97, 207);
+    box-shadow:1px 1px 4px black;
+    color: white;
+    padding: 6px;
+    margin: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+header>h1 {
+    margin-top: -1px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    margin: 12px;
+    border-radius: 7px;
+    box-shadow:2px 2px 7px black;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    margin: 12px;
+    border-radius: 7px;
+    box-shadow:2px 2px 7px black;
+}

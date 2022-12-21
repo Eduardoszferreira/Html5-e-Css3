@@ -1,0 +1,7 @@
+weight-Peso
+width-largura
+height-altura   
+
+Shorthand font
+primeiro é o (fonte style) depois fonte (font-weight)
+depois é o (Font-size) e por fim (fonte Family)

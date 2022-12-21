@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(183, 183, 184));
+}
+
+h1 {
+    color: rgb(96, 11, 146);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: rgb(46, 31, 133);
+    font-family: 'Courier New', Courier, monospace;
+
+}
