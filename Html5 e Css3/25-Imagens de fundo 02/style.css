@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2021/05/28/00/29/bunny-6289491_1280.png);
+    background-size: 100px 100px;
+
+    background-repeat: repeat-x;
+}
+/* 
+background-image: url();
+background-repeat: repeat-x ;
+background-repeat: repeat-y;
+background-repeat: no-repeat;
+*/
+
+header {
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    text-align: center;
+    width: 1150px;
+    margin: 122px;
+}
