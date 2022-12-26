@@ -24,4 +24,12 @@ div#q3 {background-image: url(Img/pattern001.png);}
 
 div#q4 {background-color: rgb(240, 145, 110);}
 
+header>input{
+    border-radius:22px;
+    width: 580px;
+    margin-top: 10px;
+    margin-bottom: 111px;
+    
+    
+}
 footer {}
