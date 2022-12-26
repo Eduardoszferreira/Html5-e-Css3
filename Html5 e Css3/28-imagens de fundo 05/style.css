@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+/*  background-position:letf top
+background-position:letf center 
+background-position:letf botton
+background-position: center center*/
+body {
+    background-image: url(Img/wallpaper003.jpg);
+    height: 97vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

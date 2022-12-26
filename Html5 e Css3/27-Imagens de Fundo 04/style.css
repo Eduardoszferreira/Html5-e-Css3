@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+/*  background-position:letf top
+background-position:letf center 
+background-position:letf botton
+background-position: center center*/
+body {
+    background-image: url(https://gustavoguanabara.github.io/images/mascote-html5.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 95vh;
+    border: 1px dashed black;
+    background-position: center center;
+}
+
+div.bloco {
+    background-image: url();
+}
+
+
+div#i1 {}
+
+div#i2 {}
+
+div#i3 {}
+
+div#i4 {}
