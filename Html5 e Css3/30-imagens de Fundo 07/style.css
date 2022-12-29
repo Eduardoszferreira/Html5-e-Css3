@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: blueviolet;
+    background-image: url(Img/target001.png);
+    background-size: 100% 100%;
+    height: 94vh;
+
+}
+
+#conteudo {
+    background-color: yellow;
+    background-image: url(Img/target001.png);
+    background-size: 100% 100%;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+}
+
+main p {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
