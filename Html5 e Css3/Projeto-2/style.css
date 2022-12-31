@@ -31,7 +31,7 @@ header>a:hover {
     text-decoration: underline;
 }
 
-main {}
+
 
 section {
     padding-top: 10vh;
@@ -54,11 +54,14 @@ footer {
     padding: 1px;
     background-color: black;
     color: white;
+    font-variant: small-caps;
 }
 
 footer>p>a {
+    font-variant: small-caps;
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
 footer>p>a:hover {
