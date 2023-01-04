@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    padding-bottom: 22px;
+    background-image: linear-gradient(to right,rgb(27, 27, 27) ,rgb(94, 94, 94));
+    color: white;
+    margin-bottom: 22px;
+}
+
+table {
+    border: 3px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(255, 229, 115),rgb(233, 215, 137), rgb(255, 229, 114));
+    border-collapse: collapse;
+}
+
+td {
+    padding: 9px;
+    border: 1px solid black;
+    width: 85px;
+    height: 85px;
+text-align: center;
+   vertical-align: bottom;
+   /* vertical-aline é uma movimentaçao para caracteres especialmente os de cedulas*/
+    
+
+}
+
+td.dado {background-image: linear-gradient(to right, rgb(240, 111, 233), rgb(229, 153, 231),rgb(240, 111, 233));
+    
+}
+
+td.importante {background-image: linear-gradient(to right, rgb(101, 224, 233), rgb(145, 240, 224),rgb(101, 224, 233));
+    
+}
