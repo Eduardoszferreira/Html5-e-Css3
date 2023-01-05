@@ -8,9 +8,11 @@
 
 h1 {
     padding-bottom: 22px;
-    background-image: linear-gradient(to right,rgb(27, 27, 27) ,rgb(94, 94, 94));
+    background-image: linear-gradient(to right,rgb(111, 191, 211) ,rgb(138, 219, 206));
     color: white;
     margin-bottom: 22px;
+    text-shadow: 1px 1px 2px black;
+    box-shadow:1px 1px 3px black ;
 }
 
 table {
