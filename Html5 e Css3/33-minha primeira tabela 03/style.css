@@ -7,13 +7,14 @@
 }
 
 body {
-    background-image: url(JUN-IM-126-Dominio-TR-A-importância-dos-dados-para-o-contador-1024x640.jpg);
+    background-image: url(270934012_5097538040265539_2942270731873107977_n.png);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
+    background-attachment: fixed;
 }
 
 h1 {
-    background-color: rgb(224, 184, 80);
+    background-image: linear-gradient(to right, rgb(1, 102, 41), rgb(44, 150, 23), rgb(121, 247, 49));
     margin-bottom: 22px;
     padding: 19px;
     text-align: center;
@@ -25,10 +26,9 @@ h1 {
 table {
     width: 400px;
     border-collapse: collapse;
-    position: absolute;
-    top: 150px;
-    left: 450px;
-    position: ;
+    position: relative;
+    margin-left: 450px;
+
 
 }
 
@@ -40,7 +40,7 @@ th {
 
 thead,
 tfoot {
-    background-color: rgb(224, 184, 80);
+    background-image: linear-gradient(to right, rgb(1, 102, 41), rgb(44, 150, 23), rgb(121, 247, 49));
     color: white;
     text-shadow: 1px 1px 1px black;
 }
@@ -53,21 +53,8 @@ td.porcento {
     text-align: right;
 }
 
-
-
-footer {
-    background-color: rgb(224, 184, 80);
-    color: white;
-    text-shadow: 1px 1px 2px black;
-    padding: 14px;
-    position: absolute;
-    top: 75%;
-    left: 30%;
-    border-radius: 5px;
-}
-
 caption {
-    background-color: rgb(224, 184, 80);
+    background-image: linear-gradient(to right, rgb(1, 102, 41), rgb(44, 150, 23), rgb(121, 247, 49));
     padding: 4 px;
     text-align: center;
     color: white;
@@ -78,9 +65,17 @@ caption {
 }
 
 tbody tr:nth-child(even) {
-    background-color: rgba(61, 255, 255, 0.342);
+    background-image: linear-gradient(to right, rgb(1, 82, 102), rgba(23, 141, 150, 0.486), rgb(49, 234, 247));
 }
 
 tbody tr:nth-child(odd) {
-    background-color: rgba(231, 77, 185, 0.61);
+    background-image: linear-gradient(to right, rgb(1, 102, 41), rgba(44, 150, 23, 0.479), rgb(121, 247, 49));
+}
+
+thead tr th {
+    position: sticky;
+    top: -1px;
+    border-collapse: collapse;
+    background-color: green;
+
 }
