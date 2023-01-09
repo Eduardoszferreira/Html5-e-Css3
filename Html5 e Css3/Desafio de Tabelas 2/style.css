@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table thead th {
+    background-color: rgb(56, 55, 55);
+    color: white;
+    border: 1px solid black;
+
+
+}       
+
+table tbody td {
+    background-color: rgb(197, 197, 197);
+    border: 1px solid black;
+    padding: 2px;
+    width: 80px;
+
+
+
+}
+
+table tbody th {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border: 1px solid black;
+}
+
+#subtitulo {
+    background-color: rgb(124, 124, 124);
+}

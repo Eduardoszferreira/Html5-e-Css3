@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{background-image: url(modelo-de-design-de-graficos-de-marketing-azul_52683-24522.webp); background-repeat: no-repeat;}
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 112px;
+    box-shadow: 2px 2px 8px black;
+}
+
+tbody td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead th {
+    background-color: rgb(129, 241, 129);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+col.cnome {
+    background-color:rgb(106, 106, 211) ;
+}
+
+col.csexo {
+    background-color: rgb(130, 186, 231);
+}
+
+col.cidade {
+    background-color: rgb(235, 125, 125);
+}
+
+col.cprofissao {
+    background-color:rgb(235, 235, 123);
+}
