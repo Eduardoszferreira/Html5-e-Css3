@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: rgb(7, 146, 77);
+  
+
+}
+iframe{margin: auto;
+display: block;
+height:700px;
+width:700px; padding: 22px;}
