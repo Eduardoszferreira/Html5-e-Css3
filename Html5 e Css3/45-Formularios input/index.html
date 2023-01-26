@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <label for="icor1">Cor do Fundo</label>
+            <input type="color" name="cor1" id="icor1">
+            <label for="icor2">cor das Letras</label>
+            <input type="color" name="cor2" id="icor2">
+            <label for="inivel">Satisfaçao</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="100" value="1">
+            <p><label for="ifoto">Fotos pra Envio:</label><input type="file" name="foto" id="ifoto"></p>
+
+
+            <p>
+                <input type="submit">
+                <input type="reset">
+            </p>
+        </form>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>

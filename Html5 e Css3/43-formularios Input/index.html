@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email e Telefone</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form action="Cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong> </legend>
+            <p><label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" placeholder="Seu Nome">
+                 <label for="isobrenome">Sobrenome: </label>
+                 <input type="text" name="Sobrenome" id="isobrenome" placeholder="Seu Sobrenome">
+                </p>
+            <br>
+            <p>
+                <label for="iemal">E-mail: </label>
+                <input type="email" name="email" id="iemail" placeholder="Email aqui" required autocomplete="email"> 
+                <label for="idata">Data de Nascimento: </label>
+                <input type="date" required>
+            </p>
+            <br>
+            <p>
+                <label for="itelefone">Telefone:</label>
+                <input type="tel" name="telefone" id="itelefone" autocomplete="tel" required pattern="^[0-9]{4}{4}$" placeholder=" (xx) xxxx-xxxx">
+            </p>
+
+            <!--Estudar sobre regEx-->
+            <br>
+            <p>
+                <input type="submit" value="Envio ">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

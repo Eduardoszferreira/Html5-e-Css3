@@ -1,0 +1,49 @@
+@charset "UTF-*";
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+/* Estilo pra Tela */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(107, 6, 6);
+    padding: 3px;
+    margin-bottom: 33px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2.1em;
+    
+}
+div#tprincipal{margin: 29px;}
+
+header h3 {
+    text-align: center; font-family: sa;
+}
+
+menu ul {
+    background-color: rgb(94, 4, 4);
+    list-style-type: none;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+    margin-top: 22px;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+article {
+    width: 560px;
+    display: block;
+    margin: auto;
+    font-size:large;
+    
+}

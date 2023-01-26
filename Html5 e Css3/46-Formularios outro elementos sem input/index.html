@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios sem Input</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis dolor? Totam, exercitationem aperiam
+        aspernatur incidunt maxime magni nam, itaque ab minus reiciendis temporibus quas, ducimus cupiditate laudantium
+        architecto similique Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos voluptas neque
+        consequatur officia tempora voluptate sequi molestias quos dolorum veniam, adipisci eaque suscipit iusto harum
+        voluptatem cumque et voluptates nihil.</p>
+    <form action="cadastro.php">
+        <fieldset>
+            <h2>Formuario</h2>
+            <div>
+                <label for="iestado">Estado</label>
+                <select name="estado" id="iestado">
+                    <optgroup label="Regiao Sudeste">
+                        <option value="" selected>* Escolhao Estado *</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+
+                    <optgroup label="Regiao Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+                <p>
+                    <label for="iprofissao" >Profissão:</label><input type="text" name="Profissao" id="iprofissao"
+                        list="listprof">
+                    <datalist id="listprof">
+                        <option>Professor</option>
+                        <option>contabilista</option>
+                        <option>Farmaceltico</option>
+                        <option>Domador de Jacaré</option>
+                        <option value="danc">Dançarina</option>
+                        <option value="danc">Peidinho</option>
+
+                    </datalist>
+                </p>
+                <p>
+                    <label for="msg">Reclamação: </label><br>
+                    <textarea name="msg" id="imsg" cols="60" rows="10"></textarea>
+                </p>
+            </div>
+
+
+
+            <p>
+                <input type="submit">
+                <input type="reset">
+            </p>
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>

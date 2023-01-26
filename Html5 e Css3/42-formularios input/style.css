@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+header{background-color:rgb(68, 68, 68); border-radius: 12px;}
+form {
+    margin: 42px;
+}
+
+input#envio {
+    background-color: black;
+    border-radius: 25px;
+    padding: 12px;
+    width: 90px;
+    color: white;
+    font-size: larger;
+}
+
+input#envio:hover {
+    background-color: rgb(5, 76, 134);
+    border-radius: 25px;
+    padding: 12px;
+    width: 90px;
+    color: white;
+    font-size: larger;
+    border: 1px solid rgb(5, 76, 134);
+    box-shadow: 0px 0px 11px rgb(0, 247, 185);
+}
+input#inome{border-radius: 9px;margin-left: 11px;}
+input#isobrenome{border-radius: 9px;}
+p{font-weight: bolder;text-shadow: 0px 0px 2px white; margin-bottom: 22px;}
+h1{text-shadow: 2px 2px 3px black; color: white;}
+input#isenha{border-radius: 9px; }
+
+input#limpar {
+    background-color: black;
+    border-radius: 25px;
+    padding: 12px;
+    width: 90px;
+    color: white;
+    font-size: larger;
+}
+input#limpar:hover {
+    background-color: rgb(5, 76, 134);
+    border-radius: 25px;
+    padding: 12px;
+    width: 90px;
+    color: white;
+    font-size: larger;
+    border: 1px solid rgb(5, 76, 134);
+    box-shadow: 0px 0px 11px rgb(0, 247, 185);
+}
+input#iidade {margin-left: 11px; border-radius: 9px;}
