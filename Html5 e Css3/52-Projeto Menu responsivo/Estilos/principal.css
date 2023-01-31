@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(116, 9, 24), brown, rgb(116, 9, 24));
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: brown;
+    text-align: center;
+    border-top: 1px solid black;
+    color: white;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+    padding: 15px;
+    border-radius: 122px;
+    text-align: center;
+}
+
+main p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 10px;
+    margin-bottom: 22px;
+
+
+}
+
+#amburguinho {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#amburguinho:hover {
+    background-image: linear-gradient(to right, rgb(49, 1, 1), brown, rgb(49, 2, 2));
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+main h2 {
+    color: brown;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+menu a:hover {
+    background-image: linear-gradient(to right, rgb(49, 1, 1), brown, rgb(49, 2, 2));
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
