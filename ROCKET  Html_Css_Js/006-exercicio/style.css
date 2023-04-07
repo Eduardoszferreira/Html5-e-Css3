@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+img {
+    width: 50%;
+    border-radius: 22px;
+    margin: 9px;
+}
+body{background-color: rgb(26, 25, 25); color: white; text-align: justify;}
+a{color: white; font-size: 1.3em;}
