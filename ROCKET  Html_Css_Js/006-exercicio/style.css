@@ -1,9 +1,24 @@
 @charset "UTF-8";
 
 img {
-    width: 50%;
+    width: 30%;
     border-radius: 22px;
-    margin: 9px;
+    margin: 4px;
+    box-shadow: 1x 1px 2px black;
+
 }
-body{background-color: rgb(26, 25, 25); color: white; text-align: justify;}
-a{color: white; font-size: 1.3em;}
+
+body {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    font-size: 1.3em;
+}
+
+#img-pag01 {
+    text-align: center;
+}

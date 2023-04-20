@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+    font-size: 1.1em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+body {
+    background-color: rgb(68, 0, 124);
+}
+
+th {
+    border: 2px solid black;
+    padding: 3px;
+}
+
+td {
+    padding: 3px;
+    border: 2px solid black;
+}
+
+table {
+
+    background-color: rgb(6, 21, 90);
+    padding: 9px;
+    border-radius: 22px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+caption {
+    background-image: linear-gradient(to right, rgb(35, 11, 122), rgb(69, 41, 146), rgb(38, 12, 107));
+    padding: 11px;
+    color: white;
+    border-radius: 18px;
+    margin-bottom: 22px;
+    font-size: 2em;
+    box-shadow: 2px 2px 11px black;
+
+}
